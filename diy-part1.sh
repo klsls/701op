@@ -19,8 +19,9 @@ echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-inf
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git dockerman https://github.com/lisaac/luci-app-dockerman' >>feeds.conf.default
 
-echo '添加jerrykuku的argon-mod主题'
-git checkout e8cb010cecf0a9ba737960230608a59bd40c8492
+#echo '回退至小米'
+#git checkout e8cb010cecf0a9ba737960230608a59bd40c8492
+#echo '添加jerrykuku的argon-mod主题'
 #rm -rf package/lean/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
